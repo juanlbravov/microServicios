@@ -8,13 +8,14 @@ comunicación en API Rest
 disponible para varias instancias
 
 # Instalacion
-# Construido con (Open Source)
+# Construida toda con Open Source
 1. JDK (Java SE Development Kit)
 - Oracle JDK LTS (solo usuarios con permisos administración)
+
 URL = https://www.oracle.com/java/technologies/javase-downloads.html
 - Open JDK
-URL = https://openjdk.java.net/
-= siempre version 11 en adelante 
+
+URL = https://openjdk.java.net/    = siempre version 11 en adelante 
 - Comprobaciones:
 
 configurar JAVA_HOME y Path
