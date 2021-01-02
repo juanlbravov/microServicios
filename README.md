@@ -32,7 +32,11 @@ disponible para varias instancias
         menu Windows >> preferences >> Maven >> Installatiosn
             tener seleccionado EMBEDDED
 
-3. MySQL y PostgradeSQL
+3. Base de Datos
+    - H2: springboot-srvicio-producto
+        base de datos en memoria
+    - MySQL
+    - PostgradeSQL
 
 
 
