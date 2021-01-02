@@ -42,8 +42,9 @@ menu Windows >> preferences >> Maven >> Installatiosn
 tener seleccionado EMBEDDED
 
 3. Base de Datos
-    - H2: springboot-srvicio-producto
-        base de datos en memoria
+    - H2: utilizada para microservicio springboot-servicio-producto
+
+		base de datos en memoria
     - MySQL
     - PostgradeSQL
 
