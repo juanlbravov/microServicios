@@ -1,14 +1,14 @@
 # microServicios
 
-# Comenzando
-Microservicios con Spring Boot y Spring Cloud Netflix Eureka
+# ¿Qué encontraras aquí?
+Ejemplo de Microservicios basados en Spring Boot y Spring Cloud Netflix Eureka
 
-Aplicaciones compuestas de microservicios
-comunicación en API Rest
-disponible para varias instancias
+donde he creado una Aplicació compuestas de microservicios:
+-  para validar la comunicación en API Rest
+- disponible para varias instancias
 
 # Instalacion
-# Construida toda con Open Source
+# Construccion basada en la metodologia Open Source
 1. JDK (Java SE Development Kit)
 - opcion 1. Oracle JDK LTS (solo usuarios con permisos administración)
 
@@ -48,5 +48,6 @@ tener seleccionado EMBEDDED
     - MySQL
     - PostgradeSQL
 
-
-
+4. Comprobaciones APIs
+- Postman
+- Newman
