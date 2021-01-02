@@ -10,10 +10,10 @@ disponible para varias instancias
 # Instalacion
 # Construida toda con Open Source
 1. JDK (Java SE Development Kit)
-- Oracle JDK LTS (solo usuarios con permisos administración)
+- opcion 1. Oracle JDK LTS (solo usuarios con permisos administración)
 
 URL = https://www.oracle.com/java/technologies/javase-downloads.html
-- Open JDK
+- opcion 2. Open JDK (disponible para todos los usuarios)
 
 URL = https://openjdk.java.net/    = siempre version 11 en adelante 
 - Comprobaciones:
