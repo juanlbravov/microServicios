@@ -21,18 +21,18 @@ import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 
 @Entity
-@Table(name = "productos") //nombre de la tabla
+@Table(name = "productos")
 public class Producto implements Serializable{
 
 	@Id //llave primaria importada de persistence
-	@GeneratedValue(strategy = GenerationType.IDENTITY) //Estrategia = configura nuestra llave autoincremental
+	@GeneratedValue(strategy = GenerationType.IDENTITY) //configura nuestra llave autoincremental
 	private Long id;
 	
 	private String nombre;
 	private Double precio;
 	
 	@Column(name = "create_at") // definimos el nombre de la Columna en la tabla
-	@Temporal(TemporalType.DATE) // formato = solo queremos la Fecha
+	@Temporal(TemporalType.DATE) // solo queremos la Fecha
 	private Date createAt;
 	
 	// para saber a qui puerto nos conectamos 
@@ -78,6 +78,5 @@ public class Producto implements Serializable{
 	 * lo definimos como serializable
 	 * definimos su serial version ID
 	 */
-	private static final long serialVersionUID = 1285454306356845809L;
-	
+	private static final long serialVersionUID = 1285454306356845809L;	
 }
