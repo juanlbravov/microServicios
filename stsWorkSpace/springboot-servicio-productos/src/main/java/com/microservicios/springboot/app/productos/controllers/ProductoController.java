@@ -32,7 +32,7 @@ public class ProductoController {
 	
 	// creamos los metodos Handler
 	// siempre public
-	// definimos la informacion que vamos a convertir a JSON
+	// definimos la información que vamos a convertir a JSON
 	@GetMapping("/listar") // EndPoint GET, a esta ruta se van a comunicar los otros servicios con el actual
 	public List<Producto> listar(){
 		//return productoService.findAll();
