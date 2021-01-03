@@ -11,12 +11,12 @@ import org.springframework.transaction.annotation.Transactional;
 import com.microservicios.springboot.app.productos.models.dao.ProductoDao;
 import com.microservicios.springboot.app.productos.models.entity.Producto;
 
-@Service  // es un estereotipo de component para inyectar dependencias
+@Service
 public class ProductoServiceImplement implements InterfaceProductoService{
 
 	@Autowired // 
 	private ProductoDao productoDao;
-
+	
 	@Override
 	@Transactional(readOnly = true) // marcamos transaccion con dao como solo lectura
 	public List<Producto> findAll() {
