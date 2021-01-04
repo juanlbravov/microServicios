@@ -3,9 +3,13 @@
 # ¿Qué encontraras aquí?
 Ejemplo de Microservicios basados en Spring Boot y Spring Cloud Netflix Eureka
 
-donde he creado una Aplicación compuesta de microservicios:
--  para validar la comunicación en API Rest
-- disponible para varias instancias
+donde he creado una Aplicación compuesta de 2 microservicios:
+- Productos: contiene la lista de productos disponibles
+- Ítem (ToDo)
+
+(ToDo) validaciones que podrán ser realizadas:
+- levantar y validar la comunicación API Rest entre ambos microservicios
+- Regresion test 
 
 # Instalación
 # Construcción basada en la metodología Open Source
@@ -26,13 +30,10 @@ terminal ==> javac -version
 
 
 2. Spring Tool IDE (Eclipse) 
-- opción 1. STS4 - Spring Tool Suite 4.9.0 
+- STS4 - Spring Tool Suite (v4) 
 
 URL = https://spring.io/tools
-- opción 2. VSC - Visual Studio Code
-aniadir Spring Boot Extension Pack
 
-url = https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack
 - Comprobaciones:
 
 menu Windows >> preferences >> Java >> Installed JREs
@@ -45,9 +46,9 @@ tener seleccionado EMBEDDED
     - H2: utilizada para microservicio springboot-servicio-producto
 
 		base de datos en memoria
-    - MySQL
-    - PostgradeSQL
+    - (ToDo) MySQL
+    - (ToDo) PostgradeSQL
 
-4. Comprobaciones APIs
+4. Comprobaciones APIs (ToDo)
 - Postman
-- Newman
+
